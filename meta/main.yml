@@ -1,0 +1,17 @@
+galaxy_info:
+  author: Mauro Medda
+  description: Install Ansible on RHEL/CentOS
+  license: BSD
+
+  min_ansible_version: 2.2
+
+  github_branch: master
+
+  platforms:
+  - name: EL
+    versions:
+    - all
+  galaxy_tags: [ "EL", "CentOS", "RedHat", "ansible" ]
+
+dependencies:
+  - mauromedda.ansible_role_epel
