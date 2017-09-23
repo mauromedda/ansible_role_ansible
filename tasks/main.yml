@@ -1,10 +1,10 @@
 ---
 # tasks file for ansible_role_ansible
 
-- name: "Ansible | {{ ansible_release_state }}"
+- name: "Ansible | Install Ansible
   yum:
     name: ansible
-    state: "{{ ansible_state }}"
+    state: present
     enablerepo: epel
   tags:
     - install
