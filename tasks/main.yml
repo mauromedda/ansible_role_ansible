@@ -8,4 +8,4 @@
     enablerepo: epel
   tags:
     - install
-    - uninstall
+    - ansible
